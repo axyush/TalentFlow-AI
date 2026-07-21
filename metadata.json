@@ -1,0 +1,6 @@
+{
+  "name": "TalentFlow AI",
+  "description": "Full-stack AI-powered Applicant Tracking System (ATS) and recruitment CRM for HR teams and staffing agencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

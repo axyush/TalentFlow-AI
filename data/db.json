@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Alex Morgan (Admin)",
+      "email": "admin@talentflow.ai",
+      "passwordHash": "$2b$10$CrBdiXLcdnr9tsZeI6SQWeV2yc35ZifQS8MBRU005X8vI77./UOOm",
+      "role": "ADMIN",
+      "createdAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "usr_recruiter",
+      "name": "Sarah Jenkins (Recruiter)",
+      "email": "recruiter@talentflow.ai",
+      "passwordHash": "$2b$10$QY7zrWoJuHK9FS3db5wer.C.pUt1vB.RFs9prJgMTXsc0SHi0cfNG",
+      "role": "RECRUITER",
+      "createdAt": "2026-07-21T19:35:51.248Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli_1",
+      "name": "Acme Technologies",
+      "industry": "Software & Cloud Services",
+      "contactPerson": "David Chen",
+      "email": "d.chen@acmetech.io",
+      "phone": "+1 (555) 234-5678",
+      "status": "ACTIVE",
+      "notes": "Enterprise account with 5 active headcount openings.",
+      "createdAt": "2026-06-21T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "cli_2",
+      "name": "Apex Health Systems",
+      "industry": "Healthcare Technology",
+      "contactPerson": "Dr. Rachel Vance",
+      "email": "vance@apexhealth.org",
+      "phone": "+1 (555) 987-6543",
+      "status": "ACTIVE",
+      "notes": "Looking for senior backend developers with HIPAA compliance experience.",
+      "createdAt": "2026-07-01T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "cli_3",
+      "name": "FinPulse Capital",
+      "industry": "Fintech & Quantitative Trading",
+      "contactPerson": "Marcus Brody",
+      "email": "m.brody@finpulse.com",
+      "phone": "+1 (555) 456-7890",
+      "status": "ACTIVE",
+      "notes": "High urgency on Senior Full-Stack React/Node positions.",
+      "createdAt": "2026-07-11T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_1",
+      "title": "Senior Full-Stack Engineer (React & Node)",
+      "description": "We are seeking a seasoned Senior Full-Stack Engineer to architect high-throughput financial web applications. Required expertise in React 18, TypeScript, Express, PostgreSQL, and AWS.",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "REST API"
+      ],
+      "experienceLevel": "Senior",
+      "jobType": "Full-time",
+      "clientId": "cli_3",
+      "clientName": "FinPulse Capital",
+      "location": "New York, NY (Hybrid)",
+      "salaryRange": "$150,000 - $185,000",
+      "status": "OPEN",
+      "createdAt": "2026-07-06T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "job_2",
+      "title": "Lead DevOps / Cloud Platform Engineer",
+      "description": "Architect scalable Kubernetes clusters, Terraform infrastructure, and CI/CD pipelines for mission-critical healthcare systems.",
+      "requiredSkills": [
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Terraform",
+        "CI/CD",
+        "Python"
+      ],
+      "experienceLevel": "Lead",
+      "jobType": "Full-time",
+      "clientId": "cli_2",
+      "clientName": "Apex Health Systems",
+      "location": "Boston, MA (Remote)",
+      "salaryRange": "$165,000 - $195,000",
+      "status": "OPEN",
+      "createdAt": "2026-07-13T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "job_3",
+      "title": "Frontend Developer (React & Tailwind)",
+      "description": "Build polished user interfaces and design systems for enterprise SaaS applications.",
+      "requiredSkills": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "experienceLevel": "Mid-Level",
+      "jobType": "Full-time",
+      "clientId": "cli_1",
+      "clientName": "Acme Technologies",
+      "location": "San Francisco, CA",
+      "salaryRange": "$110,000 - $135,000",
+      "status": "OPEN",
+      "createdAt": "2026-07-16T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand_1",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@devmail.io",
+      "phone": "+1 (555) 321-7654",
+      "location": "New York, NY",
+      "parsedSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "parsedExperience": "6 years of full-stack engineering experience at Fintech startups.",
+      "parsedEducation": "B.S. in Computer Science, Columbia University",
+      "source": "LinkedIn",
+      "status": "ACTIVE",
+      "notes": "Strong candidate for FinPulse position.",
+      "createdAt": "2026-07-09T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "cand_2",
+      "name": "Marcus Vance",
+      "email": "mvance@cloudtech.dev",
+      "phone": "+1 (555) 654-9870",
+      "location": "Boston, MA",
+      "parsedSkills": [
+        "Kubernetes",
+        "AWS",
+        "Docker",
+        "Terraform",
+        "Python",
+        "Go",
+        "Prometheus"
+      ],
+      "parsedExperience": "8 years specializing in Cloud Infrastructure & DevOps automation.",
+      "parsedEducation": "M.S. in Software Engineering, MIT",
+      "source": "Referral",
+      "status": "ACTIVE",
+      "notes": "Recommended by Apex Health engineering director.",
+      "createdAt": "2026-07-15T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "cand_3",
+      "name": "Sophia Martinez",
+      "email": "sophia.m@uiworks.com",
+      "phone": "+1 (555) 789-0123",
+      "location": "San Francisco, CA",
+      "parsedSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux",
+        "Jest",
+        "Figma"
+      ],
+      "parsedExperience": "4 years of experience building scalable frontend design systems.",
+      "parsedEducation": "B.A. in Interactive Media, UC Berkeley",
+      "source": "Portal",
+      "status": "NEW",
+      "notes": "Applied via company careers portal.",
+      "createdAt": "2026-07-19T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_1",
+      "candidateId": "cand_1",
+      "candidateName": "Elena Rostova",
+      "candidateEmail": "elena.rostova@devmail.io",
+      "jobId": "job_1",
+      "jobTitle": "Senior Full-Stack Engineer (React & Node)",
+      "clientName": "FinPulse Capital",
+      "currentStage": "Technical Round",
+      "aiScore": 92,
+      "history": [
+        {
+          "stage": "Applied",
+          "timestamp": "2026-07-11T19:35:51.248Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        },
+        {
+          "stage": "Screening",
+          "timestamp": "2026-07-14T19:35:51.248Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        },
+        {
+          "stage": "Interview",
+          "timestamp": "2026-07-17T19:35:51.248Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        },
+        {
+          "stage": "Technical Round",
+          "timestamp": "2026-07-20T19:35:51.248Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        }
+      ],
+      "createdAt": "2026-07-11T19:35:51.248Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    },
+    {
+      "id": "app_2",
+      "candidateId": "cand_2",
+      "candidateName": "Marcus Vance",
+      "candidateEmail": "mvance@cloudtech.dev",
+      "jobId": "job_2",
+      "jobTitle": "Lead DevOps / Cloud Platform Engineer",
+      "clientName": "Apex Health Systems",
+      "currentStage": "Screening",
+      "aiScore": 88,
+      "history": [
+        {
+          "stage": "Applied",
+          "timestamp": "2026-07-16T19:35:51.249Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        },
+        {
+          "stage": "Screening",
+          "timestamp": "2026-07-19T19:35:51.249Z",
+          "changedBy": "Sarah Jenkins (Recruiter)"
+        }
+      ],
+      "createdAt": "2026-07-16T19:35:51.249Z",
+      "updatedAt": "2026-07-21T19:35:51.248Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1784662897018_nsxfx",
+      "userId": "usr_recruiter",
+      "userName": "Sarah Jenkins (Recruiter)",
+      "userRole": "RECRUITER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_recruiter",
+      "details": "User recruiter@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:37.018Z"
+    },
+    {
+      "id": "log_1784662896328_5b9wa",
+      "userId": "usr_admin",
+      "userName": "Alex Morgan (Admin)",
+      "userRole": "ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_admin",
+      "details": "User admin@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:36.328Z"
+    },
+    {
+      "id": "log_1784662892823_4o4kg",
+      "userId": "usr_recruiter",
+      "userName": "Sarah Jenkins (Recruiter)",
+      "userRole": "RECRUITER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_recruiter",
+      "details": "User recruiter@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:32.823Z"
+    },
+    {
+      "id": "log_1784662868882_gf2vv",
+      "userId": "usr_admin",
+      "userName": "Alex Morgan (Admin)",
+      "userRole": "ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_admin",
+      "details": "User admin@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:08.882Z"
+    },
+    {
+      "id": "log_1784662867846_5kaci",
+      "userId": "usr_recruiter",
+      "userName": "Sarah Jenkins (Recruiter)",
+      "userRole": "RECRUITER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_recruiter",
+      "details": "User recruiter@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:07.846Z"
+    },
+    {
+      "id": "log_1784662862494_0zmuc",
+      "userId": "usr_admin",
+      "userName": "Alex Morgan (Admin)",
+      "userRole": "ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr_admin",
+      "details": "User admin@talentflow.ai logged in successfully",
+      "timestamp": "2026-07-21T19:41:02.494Z"
+    },
+    {
+      "id": "log_1",
+      "userId": "usr_admin",
+      "userName": "Alex Morgan (Admin)",
+      "userRole": "ADMIN",
+      "action": "SYSTEM_INIT",
+      "entity": "System",
+      "details": "TalentFlow AI Database Initialized with default settings and seed data.",
+      "timestamp": "2026-07-21T19:35:51.248Z"
+    }
+  ]
+}
